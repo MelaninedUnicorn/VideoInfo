@@ -1,6 +1,18 @@
-<head>
-
-</head>
+<head> </head>
 <body>
-    <h1> Mugisha's Video Info App</h1>
+	<h1>Mugisha's Video Info App</h1>
+	<form>
+		<div>
+			<label>Select a Video</label>
+			<input type="file" accept="video/*" />
+		</div>
+		<button type="submit">Get Info</button>
+	</form>
+
+	<script>
+		document.querySelector("form").addEventListener("submit", (event) => {
+			event.preventDefault();
+			const file = document.querySelector('input').files[0];
+		});
+	</script>
 </body>
