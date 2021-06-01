@@ -1,5 +1,5 @@
 {
-	"name": "videoinfo",
+	"name": "MugishaVideoApp",
 	"version": "1.0.0",
 	"description": "Electron project that calculates video length",
 	"main": "index.js",
