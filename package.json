@@ -17,6 +17,7 @@
 	},
 	"homepage": "https://github.com/MelaninedUnicorn/VideoInfo#readme",
 	"dependencies": {
-		"electron": "^13.0.1"
+		"electron": "^13.0.1",
+		"fluent-ffmpeg": "^2.1.2"
 	}
 }
