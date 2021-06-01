@@ -1,0 +1,22 @@
+{
+	"name": "videoinfo",
+	"version": "1.0.0",
+	"description": "Electron project that calculates video length",
+	"main": "index.js",
+	"scripts": {
+		"electron": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/MelaninedUnicorn/VideoInfo.git"
+	},
+	"author": "Mugisha Joyce-Christiane Kakou",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MelaninedUnicorn/VideoInfo/issues"
+	},
+	"homepage": "https://github.com/MelaninedUnicorn/VideoInfo#readme",
+	"dependencies": {
+		"electron": "^13.0.1"
+	}
+}
